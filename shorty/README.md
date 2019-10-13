@@ -18,3 +18,7 @@ validate installation here
 2. dep ensure
 3. go run main.go
 
+## Run on docker
+
+docker build -t shorty .
+docker run --rm -it -p 8080:8080 shorty
